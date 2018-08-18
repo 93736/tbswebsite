@@ -1,0 +1,111 @@
+<html>
+<body>
+
+<style>
+
+.bg-img {
+    /* The image used */
+    background-image: url("/home/monisha/Downloads/10.jpg");
+ 
+    height: 100%;
+    width: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-color:white;
+    font-weight:bold;
+}
+
+/* Add styles to the form container */
+.container {
+    position: absolute;
+    border-radius: 25px;
+    right: 0;
+    margin: 20px;
+    max-width: 700px;
+    padding: 16px;
+   background-image:  linear-gradient(to bottom, #ffff66 0%, #ff0000 100%);
+      opacity: 0.8;
+    font-weight:bold;
+    
+}
+
+
+input, select, textarea{
+    color: white;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=email],input[type=number] {
+    width: 100%;
+     border-radius: 25px;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background:#00008B;
+    text-color:white;
+font-weight:bold;
+}
+
+#nname{
+  width: 100%;
+   border-radius: 25px;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background:#00008B;
+  text-color:white;
+ font-weight:bold;
+
+}
+#name{
+  width: 100%;
+   border-radius: 25px;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background:#00008B;
+  text-color:white;
+ font-weight:bold;
+
+}
+
+</style>
+<div class="bg-img">
+
+  <form action="/action_page.php" class="container" style="width:400px">
+   <h1 style="color:purple" width="100%">&nbsp;&nbsp;&nbsp;#ComicCarnival</h1>
+<h3 style="color:blue; width=50px; line-height=0.5;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;India's first online fan fest</h3>
+
+<label for="name" style="color:white" > Name</label>
+<input type="text" value="Aayush Gupta" /><br>
+
+<label for="Email"style="color:white" > Email-ID</label>
+<br><input type="email" value="aayush@edciitr.com"/><br>
+
+<label for="contact" style="color:white"> Whatsapp contact</label>
+<br><input type="number" value="887746543"/><br>
+
+<label for="language" style="color:white" >Language</label>
+<br><select id="nname"name="mydropdown" >
+<option value="Hindi">Hindi</option>
+<option value="English">English</option>
+<option value="French">French</option>
+</select><br>
+
+<label for="genre" style="color:white" > Genre</label>
+<br><select id="name"name="mydropdown" >
+<option value="mythology">Indian Mythology</option>
+<option value="folk">Folk stories</option>
+<option value="superman">superman comics</option>
+</select><br>
+
+ 
+</form>
+</div>
+
+</body>
+</html>
